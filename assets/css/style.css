@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
     border: 1px solid transparent; /* Remove the solid color border */
-    background: linear-gradient(to right, #0056b3, #007bff, #00c6ff);
+    
     padding: 10px;
     top: 0;
     -webkit-background-clip: padding-box; /* Ensures the background gradient is clipped to the padding box */
@@ -790,6 +790,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact-add-head h3 {
     font-size:  24px;
     color:  #3c4258;
+}
+.contact-add-head h2 {
+    font-size:  16px;
+    color:  #636a82;
+    padding: 6px;
 }
 .contact-add-head p {
     font-size:  16px;
