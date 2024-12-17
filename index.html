@@ -48,8 +48,7 @@
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 		<![endif]-->
-
-    </head>
+	</head>
 	
 	<body>
 <!--		&lt;!&ndash;[if lte IE 9]>-->
@@ -546,15 +545,15 @@
 									<div class="item">
 										<img src="assets/images/projects/img2.png" alt="portfolio image"/>
 										<div class="isotope-overlay">
-											<a href="https://github.com/Oussama098/Gestion-d-etablissement-scolaire">
-												management of private educational institutions (JAVAFX) : App Desktop
+											<a href="#" data-toggle="modal" data-target="#ProjectJavaFx">
+												management of private educational institutions : App Desktop
 											</a>
 										</div><!-- /.isotope-overlay -->
 									</div><!-- /.item -->
 									<div class="item">
 										<img src="assets/images/projects/img3.png" alt="portfolio image"/>
 										<div class="isotope-overlay">
-											<a href="https://github.com/Oussama098/Clubs-management">
+											<a href="#" data-toggle="modal" data-target="#ProjectClubDetail">
 												Clubs Management (Spring boot) : Web Site
 											</a>
 										</div><!-- /.isotope-overlay -->
@@ -565,8 +564,8 @@
 									<div class="item">
 										<img src="assets/images/projects/img1.png" alt="portfolio image"/>
 										<div class="isotope-overlay">
-											<a href="https://github.com/khalidElbouari/School-Management-System">
-												School Management system :lesson planner notebook (JEE) : Web site
+											<a href="#" data-toggle="modal" data-target="#ProjectJEEDetail">
+												School Management system :lesson planner notebook (JEE) : dynamic Web site
 											</a>
 										</div><!-- /.isotope-overlay -->
 									</div><!-- /.item -->
@@ -574,7 +573,7 @@
 									<div class="item">
 										<img src="assets/images/projects/img4.png" alt="portfolio image"/>
 										<div class="isotope-overlay">
-											<a href="https://github.com/Oussama098/library-website-built-using-spring-boot">
+											<a href="#" data-toggle="modal" data-target="#ProjectLibraryDetail">
 												Books Marketplace (Spring boot) :Web Site
 											</a>
 										</div><!-- /.isotope-overlay -->
@@ -633,6 +632,135 @@
 
 		</section><!--/.contact-->
 		<!--contact end -->
+		<!--		school management project detail-->
+		<div class="modal fade" id="ProjectJavaFx" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable mt-5" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h5 class="modal-title" id="detailProjectLabel">Project Details : <u>management of private educational institutions : App Desktop</u></h5>
+					</div>
+					<div class="modal-body">
+						<div class="d-flex justify-content-center">
+							<img  class="img-fluid mb-3" alt="project Image" style="height: auto; width: 70%;">
+						</div>
+						<hr>
+						<div class="d-flex justify-content-center">
+							<u class="text-danger">the programming tools</u>
+							<p id="detailLangProg">JavaFx,JDBC,CSS</p>
+						</div>
+						<hr>
+						<p id="detailProjectDescription">The school management application meets the needs of teachers and administration with features such as authentication, student management, and grade entry. Built on a robust architecture, it leverages modern technologies like Java for the backend, JavaFX for the user interface, CSS for styling, and several libraries to enhance its functionality. The application delivers a high-performance, intuitive, and user-friendly tool.</p>
+						<hr>
+						<div class="btn-div">
+							<button class="btn btn-info"><a href="https://github.com/Oussama098/Gestion-d-etablissement-scolaire" target="_blank">Code Source</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end school management project detail-->
+
+		<!--clubs management detail -->
+		<div class="modal fade" id="ProjectClubDetail" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable mt-5" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h3 class="modal-title">Project Details : <u>Clubs Management System</u></h3>
+					</div>
+					<div class="modal-body">
+						<div class="d-flex justify-content-center">
+							<img  class="img-fluid mb-3" alt="project Image" style="height: auto; width: 70%;">
+						</div>
+						<hr>
+						<div class="d-flex justify-content-between">
+							<u class="text-danger">the programming tools</u>
+							<p>Spring boot, Bootstrap, Thymeleaf</p>
+						</div>
+						<hr>
+						<p>Developed a web-based application using Spring Boot for managing clubs efficiently. The system includes features such as club creation, member management, search functionality, and event handling. Integrated Thymeleaf for dynamic views and Bootstrap for responsive design, ensuring an intuitive and user-friendly interface. The project demonstrates strong backend development, URL management, and database integration to deliver a robust and efficient solution.</p>
+						<hr>
+						<div class="btn-div">
+							<button class="btn btn-info"><a href="https://github.com/Oussama098/Clubs-management" target="_blank">Code Source</a></button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--		end clubs management detail -->
+		<!--		school management project JEE detail-->
+		<div class="modal fade" id="ProjectJEEDetail" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable mt-5" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h3 class="modal-title" >Project Details : <u>School Management system :lesson planner notebook</u></h3>
+					</div>
+					<div class="modal-body">
+						<div class="d-flex justify-content-center">
+							<img class="img-fluid mb-3" alt="project Image" style="height: auto; width: 70%;">
+						</div>
+						<hr>
+						<div class="d-flex justify-content-between">
+							<u class="text-danger">the programming tools</u>
+							<p >JEE, JDBC, Bootstrap, Ajax/JQuery</p>
+						</div>
+						<hr>
+						<p >Developed a lesson planner notebook as part of a school management system using Java Enterprise Edition (JEE). This application replaces traditional paper-based notebooks by offering a digital solution that enhances communication, organization, and task tracking. It allows teachers to update lessons, assignments, and schedules in real-time, ensuring instant access for students and parents. Key features include interactive communication between users, automated reminders, progress tracking, and the ability to maintain a detailed history of activities. The system improves accessibility by being available on multiple devices, reduces paper usage, and simplifies administrative tasks for teachers, making it an efficient, eco-friendly, and user-friendly solution for schools.</p>
+						<hr>
+						<div class="btn-div">
+							<button class="btn btn-info"><a href="https://github.com/khalidElbouari/School-Management-System" target="_blank">Code Source</a></button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--end school management project  JEE detail-->
+
+		<!--Library  detail -->
+		<div class="modal fade" id="ProjectLibraryDetail" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable mt-5" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h3 class="modal-title">Project Details : <u class="text-capitalize">Books Marketplace</u></h3>
+
+					</div>
+					<div class="modal-body">
+						<div class="d-flex justify-content-center">
+							<img  class="img-fluid mb-3" alt="project Image" style="height: auto; width: 70%;">
+						</div>
+						<div class="d-flex justify-content-between">
+							<h4> </h4>
+						</div>
+						<hr>
+						<div class="d-flex jus">
+							<u class="text-danger">the programming tools</u>
+							<p>Spring boot, HTML5, Bootstrap, Thymeleaf</p>
+						</div>
+						<hr>
+						<p>Designed and developed a "Books Marketplace" using Spring Boot for backend development and Thymeleaf for dynamic web pages. The system enables efficient management of library operations, including book cataloging, user management, and borrowing/return processes. Key features include a search functionality for books, categorization with dynamic badges, and detailed book overviews displayed in responsive modals. The application ensures a smooth user experience with Bootstrap for styling and responsive design, and it leverages modern technologies to deliver a robust, intuitive, and efficient platform for managing library resources.</p>
+						<hr>
+						<div class="btn-div">
+							<button class="btn btn-info"><a href="https://github.com/Oussama098/library-website-built-using-spring-boot" target="_blank">Code Source</a></button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--		end Library detail -->
 
 		<!--footer-copyright start-->
 		<footer id="footer-copyright" class="footer-copyright">
@@ -689,7 +817,7 @@
 
 <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+
 </html>
